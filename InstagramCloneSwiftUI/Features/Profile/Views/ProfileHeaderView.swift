@@ -4,6 +4,7 @@
 //
 //  Created by zuri cohen on 1/8/23.
 //
+// github token: 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
 
 import SwiftUI
 
@@ -23,7 +24,7 @@ struct ProfileHeaderView: View {
                     .clipShape(Circle())
                     .padding(.leading)
                 
-                UserStatView(value: 3, title: "Post")
+                UserStatView(value: 5, title: "Post")
                 UserStatView(value: 2, title: "Following")
                 UserStatView(value: 4, title: "Followers")
                 
