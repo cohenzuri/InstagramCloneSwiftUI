@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5B7529BF-D4D2-4F87-A1DC-F5B552074CEE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78A0657F-46CF-4289-923C-211118409642"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstagramCloneSwiftUI/Features/Feed/Views/FeedView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "FeedView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "78A0657F-46CF-4289-923C-211118409642 - e80441186dbae6af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of InstagramCloneSwiftUI.FeedView.viewModel : InstagramCloneSwiftUI.FeedViewModel"
+                  moduleName = "InstagramCloneSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuricohen/Desktop/InstagramCloneSwiftUI/InstagramCloneSwiftUI/Features/Feed/Views/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "78A0657F-46CF-4289-923C-211118409642 - 70af9aefc7bbbf67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramCloneSwiftUI.FeedView.viewModel.getter : InstagramCloneSwiftUI.FeedViewModel"
+                  moduleName = "InstagramCloneSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuricohen/Desktop/InstagramCloneSwiftUI/InstagramCloneSwiftUI/Features/Feed/Views/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "78A0657F-46CF-4289-923C-211118409642 - 9432a7923f91b36b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramCloneSwiftUI.FeedView.viewModel.setter : InstagramCloneSwiftUI.FeedViewModel"
+                  moduleName = "InstagramCloneSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuricohen/Desktop/InstagramCloneSwiftUI/InstagramCloneSwiftUI/Features/Feed/Views/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "78A0657F-46CF-4289-923C-211118409642 - 9e47007724860e78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramCloneSwiftUI.FeedView.viewModel.modify : InstagramCloneSwiftUI.FeedViewModel"
+                  moduleName = "InstagramCloneSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuricohen/Desktop/InstagramCloneSwiftUI/InstagramCloneSwiftUI/Features/Feed/Views/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "78A0657F-46CF-4289-923C-211118409642 - f10bdb3a6ede16a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramCloneSwiftUI.FeedView.viewModel.modify : InstagramCloneSwiftUI.FeedViewModel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "InstagramCloneSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuricohen/Desktop/InstagramCloneSwiftUI/InstagramCloneSwiftUI/Features/Feed/Views/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "78A0657F-46CF-4289-923C-211118409642 - d70b62b7833536fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramCloneSwiftUI.FeedView.$viewModel.getter : SwiftUI.ObservedObject&lt;InstagramCloneSwiftUI.FeedViewModel&gt;.Wrapper"
+                  moduleName = "InstagramCloneSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuricohen/Desktop/InstagramCloneSwiftUI/InstagramCloneSwiftUI/Features/Feed/Views/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  uuid = "78A0657F-46CF-4289-923C-211118409642 - 504f80ca20293395"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstagramCloneSwiftUI.FeedView.init() -&gt; InstagramCloneSwiftUI.FeedView"
+                  moduleName = "InstagramCloneSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuricohen/Desktop/InstagramCloneSwiftUI/InstagramCloneSwiftUI/Features/Feed/Views/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
