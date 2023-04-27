@@ -19,6 +19,7 @@ class FeedCellViewModel: ObservableObject {
     
     init(post: Post) {
         self.post = post
+        self.checkIfUserLikedPost()
     }
     
     func like() {
@@ -41,7 +42,7 @@ class FeedCellViewModel: ObservableObject {
     func unlike() { // TODO: this code is very similar to the like functionality so need to find way to implament this in the same code!
         
         guard post.likes > 0 else { return }
-        guard let uid = AuthenticationViewModel.shared.userSession?.uid else { return }
+        guard let uid = AuthenticationViewModel.shared.userSession?.uid else { return } //TODO: maybe this variable need to be global it use all over the class
         guard let postId = post.id else { return }
         
         COLLECTION_POSTS.document(postId).collection("post-likes")
@@ -61,5 +62,12 @@ class FeedCellViewModel: ObservableObject {
     
     func checkIfUserLikedPost() {
         
+        guard let uid = AuthenticationViewModel.shared.userSession?.uid else { return }
+        guard let postId = post.id else { return }
+        
+        COLLECTION_USERS.document(uid).collection("user-likes").document(postId).getDocument { snapshot, _ in
+            guard let didLike = snapshot?.exists else { return }
+            self.post.didLike = didLike
+        }
     }
 }
