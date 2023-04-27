@@ -30,7 +30,8 @@ struct FeedCell: View {
             
             buttonActionSection
             
-            Text("\(feedCellVM.post.likes) likes").font(.system(size: 14, weight: .semibold))
+            Text(feedCellVM.likeString)
+                .font(.system(size: 14, weight: .semibold))
                 .padding(.leading, 8)
                 .padding(.bottom, 2)
             HStack {
