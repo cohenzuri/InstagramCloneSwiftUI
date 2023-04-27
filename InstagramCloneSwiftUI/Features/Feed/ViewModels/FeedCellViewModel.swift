@@ -38,8 +38,25 @@ class FeedCellViewModel: ObservableObject {
             }
     }
     
-    func unlike() {
-        print("unlike post")
+    func unlike() { // TODO: this code is very similar to the like functionality so need to find way to implament this in the same code!
+        
+        guard post.likes > 0 else { return }
+        guard let uid = AuthenticationViewModel.shared.userSession?.uid else { return }
+        guard let postId = post.id else { return }
+        
+        COLLECTION_POSTS.document(postId).collection("post-likes")
+            .document(uid).delete { _ in
+                
+                COLLECTION_USERS.document(uid).collection("user-likes")
+                    .document(postId).delete { _ in
+                        
+                        COLLECTION_POSTS.document(postId).updateData(["likes": self.post.likes - 1])
+                        
+                        self.post.didLike = false
+                        self.post.likes -= 1
+                        
+                    }
+            }
     }
     
     func checkIfUserLikedPost() {
