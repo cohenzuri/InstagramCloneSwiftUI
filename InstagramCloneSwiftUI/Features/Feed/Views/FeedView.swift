@@ -21,6 +21,7 @@ struct FeedView: View {
             Divider()
             
             ScrollView {
+                
                 LazyVStack(spacing: 32) {
                     ForEach(viewModel.posts) { post in
                         FeedCell(viewModel: FeedCellViewModel(post: post))

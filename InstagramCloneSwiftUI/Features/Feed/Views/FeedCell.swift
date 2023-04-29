@@ -19,7 +19,7 @@ struct FeedCell: View {
     
     var body: some View {
         
-        LazyVStack(alignment: .leading) {
+       LazyVStack(alignment: .leading) {
             
            header
 
@@ -31,8 +31,6 @@ struct FeedCell: View {
             
             
             buttonActionSection
-            
-            
             
             Text(feedCellVM.likeString)
                 .font(.system(size: 14, weight: .semibold))
@@ -98,6 +96,7 @@ extension FeedCell {
             
             Button {
                 print("did tap like")
+                self.didLike ? feedCellVM.unlike() : feedCellVM.like()
             } label: {
                 
                 Image(Theme.Images.heart)
