@@ -80,7 +80,7 @@ extension MainTabView {
     
     var tabTitle: String {
         switch selectedIndex {
-        case 0: return "Fead"
+        case 0: return "Feed"
         case 1: return "Explore"
         case 2: return "New Post"
         case 3: return "Notifications"

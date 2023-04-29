@@ -36,9 +36,3 @@ struct UserCell: View {
         }
     }
 }
-
-//struct UserCell_Previews: PreviewProvider {
-//    static var previews: some View {
-//        //UserCell(user: User(from: Decoder as! Decoder))
-//    }
-//}

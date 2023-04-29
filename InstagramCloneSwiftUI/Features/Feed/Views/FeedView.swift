@@ -13,16 +13,21 @@ struct FeedView: View {
     
     var body: some View {
         VStack {
+            
             Header()
+            
             //TODO: add storys view
+            
             Divider()
+            
             ScrollView {
-//                LazyVStack(spacing: 32) {
-//                    ForEach(viewModel.posts) { post in
-//                        FeedCell(viewModel: FeedCellViewModel(post: post))
-//                    }
-//                }
-//                .padding(.top)
+                LazyVStack(spacing: 32) {
+                    ForEach(viewModel.posts) { post in
+                        FeedCell(viewModel: FeedCellViewModel(post: post))
+                        
+                    }
+                }
+                .padding(.top)
             }
         }
     }
