@@ -71,8 +71,8 @@ extension FeedCell {
         
         HStack(spacing: 16) {
             
-            Button {
-                
+            NavigationLink {
+                CommentsView(post: feedCellVM.post)
             } label: {
                 Image(Theme.Images.comment)
                     .resizable()
@@ -81,7 +81,7 @@ extension FeedCell {
                     .font(.system(size: 20))
                     .padding(4)
             }
-            
+
             Button {
                 
             } label: {
