@@ -22,10 +22,10 @@ struct CommentsView: View {
             
             LazyVStack(alignment: .leading, spacing: 24) {
                 
-                ForEach(0..<10) { _ in
-                    CommentCellView()
-                        
+                ForEach(commentVm.comments) { comment in
+                    CommentCellView(comment: comment)
                 }
+                
             }.padding(.top)
         }
     
@@ -33,7 +33,7 @@ struct CommentsView: View {
         
     }
     
-    func uploadComment() { // move to ViewModel?
+    func uploadComment() { 
         self.commentVm.uploadComment(commentText: commentText)
         self.commentText = ""
     }

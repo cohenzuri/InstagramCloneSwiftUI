@@ -9,17 +9,20 @@ import SwiftUI
 
 struct CommentCellView: View {
     
+    let comment: Comment
+    
     var body: some View {
         
         HStack {
-            Image(Theme.Images.profile_3)
-                .resizable()
+           
+            AsyncImage(url: URL(string: comment.profileImageUrl))
+            
                 .scaledToFill()
                 .frame(width: 36, height: 36)
                 .clipShape(Circle())
             
-            Text("batman").font(.system(size: 14, weight: .semibold)) +
-            Text(" some test comment for now").font(.system(size: 14))
+            Text(comment.username).font(.system(size: 14, weight: .semibold)) +
+            Text(comment.commentText).font(.system(size: 14))
             
             Spacer()
             
@@ -28,11 +31,5 @@ struct CommentCellView: View {
                 .font(.system(size: 12))
             
         }.padding(.horizontal)
-    }
-}
-
-struct CommentCellView_Previews: PreviewProvider {
-    static var previews: some View {
-        CommentCellView()
     }
 }
